@@ -1,0 +1,83 @@
+<html>
+	<head> 
+	<title>Reaction test</title> 
+	<script type="text/javascript" src="jquery.min.js"> </script>
+	<style>
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: impact;
+	}
+
+	#results {
+		text-transform: uppercase;
+		font-family: impact;
+		margin-top: 125px;
+		float: left;
+		width: 200px;
+	}
+
+	.time {
+		padding-bottom: 25px;
+		float: left;
+	}
+
+	.best{
+		clear: both;
+		padding-bottom: 25px;
+
+	}
+
+
+
+
+	#gamediv{
+		height: 500px;
+		width: 800px;
+		border: 4px solid black;
+		border-radius: 5px;
+		background-color: lightgray;
+		margin: 0 auto;
+		margin-top: 75px;
+		line-height: 350px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 2em;
+
+	}
+
+	#start{
+		font-size: 46px;
+		font-weight: bold;
+		cursor: pointer;
+
+	}
+
+	#circle{
+		display: none;
+	}
+
+	#spantime{text-transform: lowercase;}
+	#spanbesttime{text-transform: lowercase;}
+	#spantries{text-transform: lowercase;}
+
+
+
+	</style>
+	</head>
+	<body>
+	<h1> Desktop Reaction tester game </h1>
+
+	<div id="results"> 
+		<p class="time"> Time: &nbsp  <span id="spantime">0 s</span></p>
+		<p class="best"> Best: &nbsp  <span id="spanbesttime">0 s</span> </p>
+		<p class="tries"> Tries:  <span id="spantries">10 </span> </p> 
+	</div>
+
+	<div id="gamediv"> 
+		<p id="start">Click to START</p> 
+		<div id="circle"> </div> 
+	 </div>
+	 <script src="script.js"></script>
+	</body>
+</html>
