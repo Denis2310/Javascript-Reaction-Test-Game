@@ -1,0 +1,69 @@
+
+	body{
+		color:white;
+		background-color: black;
+		margin: 0;
+	}
+
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: impact;
+	}
+
+	span{
+		text-transform: lowercase;
+	}
+
+	#results {
+		box-sizing: border-box;
+		text-transform: uppercase;
+		font-family: impact;
+		margin-top: 125px;
+		float: left;
+		width: 200px;
+		padding-left: 10px;
+	}
+
+	.time {
+		padding-bottom: 25px;
+
+	}
+
+	.your_best{
+		padding-bottom: 25px;
+	}
+
+	.all_time_best{
+		padding-bottom: 25px;
+	}
+
+
+	#gamediv{
+		height: 500px;
+		width: 800px;
+		border: 4px solid black;
+		border-radius: 5px;
+		background-color: lightgray;
+		margin: 0 auto;
+		margin-top: 75px;
+		line-height: 350px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 1em;
+		text-transform: uppercase;
+
+	}
+
+	#start{
+		font-family: impact;
+		font-size: 46px;
+		cursor: pointer;
+
+	}
+
+	#circle{
+		display: none;
+	}
+
+
